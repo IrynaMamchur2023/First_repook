@@ -1,14 +1,8 @@
 from collections import defaultdict
 from datetime import datetime, timedelta
 
-
-
-
-
 def get_birthdays_per_week(users):
     birthdays_by_day = defaultdict(list)
-
-  
     today = datetime.today().date()
 
     print(today)
